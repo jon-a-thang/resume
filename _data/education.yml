@@ -1,0 +1,12 @@
+# Education Template
+- layout: left
+  name: Rochester Institute of Technology
+  dates: 2015.08 - 2020.12
+  qualification: Bachelor of Science in Computing Security
+  gpa: "Cumulative GPA: 3.39/4.00"
+  honors: Dean's List for Spring 2016, Fall 2018, Spring 2019
+  quote: >
+    Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    During my time at Rochester Institute of Technology, I developed a strong foundation in software and security-focused engineering. My coursework included a wide range of topics such as Fundamentals of Computing Security, System Administration, Cyber Defense Techniques, Malware Reverse Engineering, and Principles of Web Application Security, all of which deepened my understanding of backend systems, secure network design, and threat mitigation. These classes, along with hands-on labs and team-based projects, allowed me to apply technical concepts in real-world simulations and sparked my interest in building secure, scalable software systems.
+    Outside the classroom, I immersed myself in extracurricular activities that sharpened both my technical and interpersonal skills. As a dedicated member of RITSEC, I regularly participated in cybersecurity challenges and attended talks on topics like penetration testing and cryptography. I was also involved with RC3 and SPARSA, and competed in events such as the Incident Response Security Competition (IRSec) and the Networking and Systems Infrastructure Competition (NSIC). Beyond tech, I contributed to RIT's Ultimate Frisbee Club and volunteered in various ministries at local churches, where I supported AV/tech setups and event coordination. These experiences helped round out my ability to collaborate, lead, and communicate effectively in fast-paced, team-driven environments.

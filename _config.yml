@@ -1,0 +1,231 @@
+# Site
+repository: jon-a-thang/jon-a-thang.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jonathan Woojin Jang
+title: Software Engineer
+email: jwj3767@rit.edu
+# email_title: Email (Email title override)
+phone: +1 917-359-9861
+# phone_title: Phone (Phone title override)
+website: www.github.com/jon-a-thang/
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: 
+github_username:  jon-a-thang
+stackoverflow_username: 
+dribbble_username: 
+facebook_username: 
+flickr_username: 
+instagram_username: _jon_a_thang
+linkedin_username: jonathanwjang
+xing_username: 
+pinterest_username: 
+youtube_username: 
+orcid_username: 
+googlescholar_username: 
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Detail-oriented Software Engineer with 5 years of experience designing, developing, and deploying scalable web and mobile applications. Passionate about clean code, product-focused engineering, and continuous learning. Adept at cross-functional teamwork and agile environments.<br>
+  Experienced in both modern full-stack development and the Microsoft Power Platform, including Power Apps, Power Automate, and Power BI, enabling the rapid delivery of low-code business solutions alongside custom development.
+
+content:
+  - title: Experience #### EXPERIENCE ####
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Longi Engineering
+        link: https://longieng.com/
+        sub_title: Software Engineer
+        caption: June 2022 - March 2025
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            * Developed SaaS solutions within the Microsoft Power Platform ecosystem, utilizing Power Apps, Power Automate, and Power BI to streamline business workflows and data visualization.
+            * Built and customized client-facing applications using SPFx, React, and .NET Core, integrating with SharePoint, SSMS, and IIS.
+            * Automated data migration processes by integrating Python scripts with the SharePoint Migration Tool, enabling efficient extraction, transformation, and loading (ETL) of metadata and files.
+            * Wrote complex SQL scripts to manage data across both small and large datasets, including updates, inserts, and deletions within enterprise-scale databases.
+      - layout: left
+        title: Solomon Agency Corp
+        link: https://www.solomonus.com/
+        sub_title: IT Specialist & Automation Developer
+        caption: April 2021 - June 2022
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            * Configured and deployed user workstations, managed Active Directory (AD) updates, installed software and patches, and provided technical support for email, network, printer, and workstation issues.
+            * Automated document-handling workflows using Python, leveraging libraries such as OCR, PDF2Text, Selenium, BeautifulSoup, Pandas, and NumPy to extract, process, and structure insurance data — significantly reducing manual effort and improving accuracy.
+            * Developed scripts to generate databases and tables for storing and organizing extracted insurance document data.
+      - layout: left
+        title: Niche Industries Corp.
+        link: 
+        sub_title: Cybersecurity Developer & Co-Founder
+        caption: August 2019 - December 2019
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            * Used Python, SQL, and UI Designing tools to create a data visualization software for the US Armed Forces to assist with mission planning in order to maximize the efficiency of fuel and other resources that need tracking
+
+
+  - title: Tech Stack
+    layout: text
+    content: |
+      **Languages**: JavaScript, TypeScript, Python, Java, C, C#  
+      **Frameworks**: React, Next.js, Node.js, Express, Django, Flutter, .NET Core  
+      **Databases**: SSMS, PostgreSQL, MongoDB, Supabase, Firebase, MySQL, MariaDB  
+      **Tools**: Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG  
+      **Other**: RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
+  # - title: Tech Stack #### TECH STACK ####
+  #   layout: text # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: 
+  #       sub-title: Languages
+  #       quote: >
+          
+  #       description: | # this will include new lines to allow paragraphs
+  #           JavaScript, TypeScript, Python, Java, C, C#
+  #     - layout: left
+  #       title: 
+  #       sub-title: Frameworks
+  #       quote: >
+          
+  #       description: | # this will include new lines to allow paragraphs
+  #           React, Next.js, Node.js, Express, Django, Flutter, .NET Core
+  #     - layout: left
+  #       title: 
+  #       sub-title: Databases
+  #       quote: >
+          
+  #       description: | # this will include new lines to allow paragraphs
+  #           SSMS, PostgreSQL, MongoDB, Supabase, Firebase, MySQL, MariaDB
+  #     - layout: left
+  #       title: Tools
+  #       quote: >
+          
+  #       description: | # this will include new lines to allow paragraphs
+  #           Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG
+  #     - layout: left
+  #       title: Other
+  #       quote: >
+          
+  #       description: | # this will include new lines to allow paragraphs
+  #           RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
+
+
+
+  - title: Projects #### PROJECTS ####
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: In-App Wallet System
+        # link: github.com/jon-a-thang
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  github.com/jon-a-thang
+        #     icon: fab fa-github
+        #     url: github.com/jon-a-thang
+          # - title:  Github page for project (eg. github.com/jon-a-thang)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. jon-a-thang.github.io)
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          Developed and deployed a full-featured wallet system enabling users to deposit and manage funds in both KRW and USD using the Stripe API. Integrated the system within a larger SaaS platform with secure transaction logging and user authentication via Supabase. Implemented frontend logic in React with TypeScript, created Stripe payment intents, and handled payment success/cancellation flows. Ensured responsive design and accessibility for both web and mobile users.<br>
+          Tech: React, Supabase, TypeScript, Stripe API
+
+      - layout: top-middle
+        title: Home Server
+        # link: github.com/jon-a-thang
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  github.com/jon-a-thang
+        #     icon: fab fa-github
+        #     url: github.com/jon-a-thang
+          # - title:  Github page for project (eg. github.com/jon-a-thang)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. jon-a-thang.github.io)
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          Architected and maintained a secure, self-hosted personal cloud solution for file storage and management. Deployed services on an Unraid server using Docker containers, with NextCloud as the core cloud platform. Set up NGINX with SWAG (Secure Web Application Gateway) as a reverse proxy for HTTPS access, configured MariaDB for data persistence, and used Cloudflare for DNS management and DDoS protection. Automated regular backups and managed resource monitoring for optimal uptime and performance.<br>
+          Tech: Unraid Server, Docker, NGINX, SWAG, MariaDB, Cloudflare, NextCloud
+
+
+
+  - title: Education #### EDUCATION ####
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Rochester Institute of Technology
+        caption: August 2015 - December 2020
+        sub_title: |
+          Bachelor of Science in Computing Security
+          Cumulative GPA: 3.39/4.00
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          While studying at Rochester Institute of Technology, I developed a strong interest in backend systems, coding, and cybersecurity. Through labs and group projects, I got hands-on experience applying what I learned in class to real-world scenarios, which really helped me understand how to build secure and scalable systems.
+
+          Outside of coursework, I was involved in clubs like RITSEC, RC3, and SPARSA, where I took part in competitions such as IRSec and NSIC. These experiences helped me grow as a team player, problem solver, and communicator in all kinds of settings.
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests. Or you could title it **Skills**
+  #     and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+# References:
+# https://jojoldu.github.io/
+# https://www.jameswgrant.co.uk/

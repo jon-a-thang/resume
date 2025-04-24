@@ -1,0 +1,33 @@
+# Experience template
+- layout: left
+  company: Longi Engineering
+  link: https://longieng.com/
+  job_title: Software Engineer
+  dates: June 2022 - March 2025
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    * Developed SaaS solutions within the Microsoft Power Platform ecosystem, utilizing Power Apps, Power Automate, and Power BI to streamline business workflows and data visualization.
+    * Built and customized client-facing applications using SPFx, React, and .NET Core, integrating with SharePoint, SSMS, and IIS.
+    * Automated data migration processes by integrating Python scripts with the SharePoint Migration Tool, enabling efficient extraction, transformation, and loading (ETL) of metadata and files.
+    * Wrote complex SQL scripts to manage data across both small and large datasets, including updates, inserts, and deletions within enterprise-scale databases.
+- layout: left
+  company: Solomon Agency Corp
+  link: https://www.solomonus.com/
+  job_title: IT Specialist & Automation Developer
+  dates: April 2021 - June 2022
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    * Configured and deployed user workstations, managed Active Directory (AD) updates, installed software and patches, and provided technical support for email, network, printer, and workstation issues.
+    * Automated document-handling workflows using Python, leveraging libraries such as OCR, PDF2Text, Selenium, BeautifulSoup, Pandas, and NumPy to extract, process, and structure insurance data — significantly reducing manual effort and improving accuracy.
+    * Developed scripts to generate databases and tables for storing and organizing extracted insurance document data.
+- layout: left
+  company: Niche Industries Corp.
+  link: Link to company (optional)
+  job_title: Cybersecurity Developer & Co-Founder
+  dates: August 2019 - December 2019
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    * Used Python, SQL, and UI Designing tools to create a data visualization software for the US Armed Forces to assist with mission planning in order to maximize the efficiency of fuel and other resources that need tracking

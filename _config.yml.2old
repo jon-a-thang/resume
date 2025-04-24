@@ -1,0 +1,87 @@
+# Site
+repository: jon-a-thang/jon-a-thang.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jonathan Woojin Jang
+title: Software Engineer
+email: jwj3767@rit.edu
+# email_title: Email (Email title override)
+phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: www.github.com/jon-a-thang/
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: 
+github_username:  jon-a-thang
+stackoverflow_username: 
+dribbble_username: 
+facebook_username: 
+flickr_username: 
+instagram_username: _jon_a_thang
+linkedin_username: jonathanwjang
+xing_username: 
+pinterest_username: 
+youtube_username: 
+orcid_username: 
+googlescholar_username: 
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Detail-oriented Software Engineer with 5 years of experience designing, developing, and deploying scalable web and mobile applications. Passionate about clean code, product-focused engineering, and continuous learning. Adept at cross-functional teamwork and agile environments.
+  Experienced in both modern full-stack development and the Microsoft Power Platform, including Power Apps, Power Automate, and Power BI, enabling the rapid delivery of low-code business solutions alongside custom development.
+
+# Projects Section
+projects_title: Projects title #(Use this to override about projects section title)
+
+# Experience Section
+experience_title: Experience title #(Use this to override about experience section title)
+
+# Education Section
+educaton_title: Education title #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: > # this means to ignore newlines until the next config item.
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests. Or you could title it **Skills**
+  and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
